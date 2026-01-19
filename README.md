@@ -21,7 +21,7 @@ A comprehensive Bitcoin yield generation platform built for multi-chain deployme
 The SovaBTC Yield System consists of four core components that work together to provide a seamless Bitcoin yield experience:
 
 - **🏦 SovaBTCYieldVault**: ERC-4626 compliant vault accepting multiple Bitcoin variants
-- **🔗 BridgedSovaBTC**: Cross-chain sovaBTC token via Hyperlane protocol  
+- **🔗 BridgedSovaBTC**: Cross-chain sovaBTC token via Hyperlane protocol
 - **🥩 SovaBTCYieldStaking**: Dual token staking system with symbiotic rewards
 - **🔄 RedemptionQueue**: Configurable queue system for managing redemptions
 
@@ -56,7 +56,7 @@ The system documentation has been organized into focused topic pages for better 
 
 - **[📖 System Architecture](./docs/system-architecture.md)** - Comprehensive architecture overview with diagrams, core contracts, and data flows
 - **[🔗 Multi-Asset Support](./docs/multi-asset-support.md)** - Details on decimal normalization, cross-network assets, and network configurations
-- **[🥩 Rewards & Staking System](./docs/rewards-staking.md)** - Dual token staking mechanics, lock periods, and reward calculations  
+- **[🥩 Rewards & Staking System](./docs/rewards-staking.md)** - Dual token staking mechanics, lock periods, and reward calculations
 - **[🔄 Redemption System](./docs/redemption-system.md)** - Queue-based redemption architecture and liquidity management
 - **[🧩 Token Composability](./docs/composability.md)** - DeFi integration patterns and yield optimization strategies
 
@@ -87,7 +87,7 @@ forge script script/DeployStage1_Core.s.sol --rpc-url $ETHEREUM_RPC_URL --broadc
 # Deploy to Base
 forge script script/DeployStage1_Core.s.sol --rpc-url $BASE_RPC_URL --broadcast --verify
 
-# Deploy to Sova Network  
+# Deploy to Sova Network
 forge script script/DeployStage1_Core.s.sol --rpc-url $SOVA_RPC_URL --broadcast --verify
 ```
 
@@ -102,7 +102,7 @@ forge script script/DeployStage1_Core.s.sol --rpc-url $SOVA_RPC_URL --broadcast 
 ### Installation
 
 ```bash
-git clone https://github.com/SovaNetwork/sovabtc-yield.git
+git clone https://github.com/sovafoundation/sovabtc-yield.git
 cd sovabtc-yield
 make setup
 ```
@@ -140,7 +140,7 @@ HYPERLANE_MAILBOX_BASE=0x...
 The project includes **92 tests** with excellent coverage:
 
 - **SovaBTCYieldVault**: 95%+ coverage
-- **SovaBTCYieldStaking**: 84%+ coverage  
+- **SovaBTCYieldStaking**: 84%+ coverage
 - **BridgedSovaBTC**: 86%+ coverage
 
 ### Running Tests
@@ -175,7 +175,7 @@ cp .env.example .env.testnet
 # Deploy to Sepolia
 make deploy-sepolia
 
-# Deploy to Base Sepolia  
+# Deploy to Base Sepolia
 make deploy-base-sepolia
 
 # Run comprehensive E2E test
@@ -271,4 +271,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ by the Sova Network team**
+**Built with ❤️ by the Sova Foundation team**
